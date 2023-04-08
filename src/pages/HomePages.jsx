@@ -1,7 +1,13 @@
 import React from 'react'
+import { PokemonList } from '../components'
 
 export const HomePages = () => {
   return (
-    <div>HomePages</div>
+    <>
+
+    <span>Filtrar</span>
+    <PokemonList/>
+    
+    </>
   )
 }
